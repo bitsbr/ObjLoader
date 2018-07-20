@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rafael/Dev/XCode/project/src/Game.cpp
+Game.hpp
+/Users/rafael/Dev/XCode/project/src/Game.hpp
+
+/Users/rafael/Dev/XCode/project/src/Game.hpp
+iostream
+-
+SDL2/SDL.h
+-
+GL/glew.h
+-
+
