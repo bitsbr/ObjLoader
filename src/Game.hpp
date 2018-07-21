@@ -11,14 +11,17 @@
 
 #include <iostream>
 
+
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 #include <GL/glew.h>
 
 class Game
 {
 public:
   Game(void);
-  Game(const char* wndTitle, int wndWidth, int wndHeight);
+  Game(const char* wndTitle,
+       int wndWidth, int wndHeight);
   ~Game(void);
 
   void Run(int argc, const char **argv);

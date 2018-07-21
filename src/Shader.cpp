@@ -1,3 +1,4 @@
+
 //
 //  Shader.cpp
 //  OpenGLMeshLoader
@@ -7,3 +8,30 @@
 //
 
 #include "Shader.hpp"
+
+
+Shader::Shader(void)
+{
+
+}
+
+Shader::Shader(const char* vertexShaderSrc,  const char* fragmentShaderSrc)
+{
+  
+}
+
+Shader::~Shader(void)
+{
+
+}
+
+
+void  Shader::Use()
+{
+  
+}
+
+void Shader::LoadShader(const char *vertexShaderSrc,  const char *fragmentShaderSrc)
+{
+  
+}

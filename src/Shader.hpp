@@ -15,11 +15,16 @@ class Shader
 {
 public:
   Shader(void);
-  Shader(const char* vertexShaderFile, const char * fragmentShaderFile);
+  Shader(const char* vertexShaderSrc, const char * fragmentShaderSrc);
+
   ~Shader(void);
 
   void Use(void);
+  void LoadShader(const char * vertexShaderSrc, const char *fragmentShaderSrc);
 private:
-
+  unsigned int ID;
+  unsigned int FragmentShader;
+  unsigned int VertexShader;
+  
 };
 #endif/* Shader_hpp */
