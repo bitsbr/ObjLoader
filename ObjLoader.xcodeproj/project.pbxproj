@@ -13,17 +13,19 @@
 		533A0F5F2113C93E00327F16 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 533A0F592113C93E00327F16 /* Shader.cpp */; };
 		533A0F602113C93E00327F16 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 533A0F5A2113C93E00327F16 /* Game.cpp */; };
 		533A0F612113C93E00327F16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 533A0F5E2113C93E00327F16 /* main.cpp */; };
+		533A0F632113D00D00327F16 /* content in CopyFiles */ = {isa = PBXBuildFile; fileRef = 533A0F622113CFFA00327F16 /* content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5306CC6D210E283900A61CEA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
+				533A0F632113D00D00327F16 /* content in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -38,6 +40,7 @@
 		533A0F5C2113C93E00327F16 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		533A0F5D2113C93E00327F16 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		533A0F5E2113C93E00327F16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		533A0F622113CFFA00327F16 /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		5306CC66210E283900A61CEA = {
 			isa = PBXGroup;
 			children = (
+				533A0F622113CFFA00327F16 /* content */,
 				533A0F582113C92800327F16 /* src */,
 				5306CC70210E283900A61CEA /* Products */,
 				5306CC79210E285A00A61CEA /* Frameworks */,

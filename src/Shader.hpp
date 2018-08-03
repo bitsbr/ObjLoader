@@ -9,7 +9,7 @@
 #ifndef Shader_hpp
 #define Shader_hpp
 
-#include <stdio.h>
+#include "Global.hpp"
 
 class Shader
 {
@@ -20,9 +20,10 @@ public:
   ~Shader(void);
 
   void Use(void);
-  void LoadShader(const char * vertexShaderSrc, const char *fragmentShaderSrc);
+  void LoadShader(const char * vertexShaderPath, const char *fragmentShaderPath);
+
 private:
-  unsigned int ID;
+  unsigned int IDProgram;
   unsigned int FragmentShader;
   unsigned int VertexShader;
   

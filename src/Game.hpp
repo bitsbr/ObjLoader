@@ -9,12 +9,9 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include <iostream>
+#include "Global.hpp"
 
-
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include <GL/glew.h>
+#include "Shader.hpp"
 
 class Game
 {

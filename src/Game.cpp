@@ -29,8 +29,17 @@ Game::Game(void)
 Game::~Game(void) { this->m_Destroy(); }
 
 void Game::Run(int argc, const char **argv){
+  
   if (load_Opengl())    {
     std::cout << "Basic Opengl and Window loaded" << std::endl;
+
+    Shader *test =  new Shader();
+
+    test->LoadShader("/Users/rafael/Dev/ObjLoader/content/shaders/vertexShader.glsl", "/Users/rafael/Dev/ObjLoader/content/shaders/fragmentShader.glsl");
+     
+    
+    
+    
     this->m_Loop();
   }
 
